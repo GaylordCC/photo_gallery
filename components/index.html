@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="../components/__styles__/index.css">
+
+    <script type="text/javascript">
+        window.addEventListener("load", function(event) {
+            function insertart(count){
+                if (count == "1") { 
+                    document.getElementById("2").style.display = "none";
+                    document.getElementById("3").style.display = "none";
+                    document.getElementById("4").style.display = "none";
+                    document.getElementById("5").style.display = "none";
+                    document.getElementById("6").style.display = "none";
+                    document.getElementById("7").style.display = "none";
+                    document.getElementById("8").style.display = "none";
+                    document.getElementById("9").style.display = "none";
+                    document.getElementById("10").style.display = "none";
+                    var src = document.getElementById("1");
+                    var img = document.createElement("img");
+                    img.style="width: 100%;height: 100%;"
+                    img.src = "https://i.ytimg.com/vi/NJ9gLDD7G6E/maxresdefault.jpg";
+                    src.appendChild(img);
+                }
+                if (count == "2") {
+                    document.getElementById("1").style.display = "none";
+                    document.getElementById("4").style.display = "none";
+                    document.getElementById("5").style.display = "none";
+                    document.getElementById("6").style.display = "none";
+                    document.getElementById("7").style.display = "none";
+                    document.getElementById("8").style.display = "none";
+                    document.getElementById("9").style.display = "none";
+                    document.getElementById("10").style.display = "none";
+
+                    var src = document.getElementById("2");
+                    var img = document.createElement("img");
+                    img.style="width: 100%;height: 100%;"
+                    img.src = "https://i.ytimg.com/vi/NJ9gLDD7G6E/maxresdefault.jpg";
+                    src.appendChild(img);
+
+                    var src2_2 = document.getElementById("3");
+                    var imagen2_2 = document.createElement("img");
+                    imagen2_2.style="width: 100%;height: 100%;"
+                    imagen2_2.src= "https://i.ytimg.com/vi/NJ9gLDD7G6E/maxresdefault.jpg";
+                    src2_2.appendChild(imagen2_2);
+                }
+                if(count=="3"){
+                    document.getElementById("1").style.display = "none";
+                    document.getElementById("2").style.display = "none";
+                    document.getElementById("3").style.display = "none";
+                    document.getElementById("7").style.display = "none";
+                    document.getElementById("8").style.display = "none";
+                    document.getElementById("9").style.display = "none";
+                    document.getElementById("10").style.display = "none";
+
+                    var src = document.getElementById("4");
+                    var img = document.createElement("img");
+                    img.style="width: 100%;height: 100%;"
+                    img.src = "https://i.ytimg.com/vi/NJ9gLDD7G6E/maxresdefault.jpg";
+                    src.appendChild(img);
+
+                    var src2_2 = document.getElementById("5");
+                    var imagen2_2 = document.createElement("img");
+                    imagen2_2.style="width: 100%;height: 100%;"
+                    imagen2_2.src= "https://i.ytimg.com/vi/NJ9gLDD7G6E/maxresdefault.jpg";
+                    src2_2.appendChild(imagen2_2);
+
+                    var src2_3 = document.getElementById("6");
+                    var imagen2_3 = document.createElement("img");
+                    imagen2_3.style="width: 100%;height: 100%;"
+                    imagen2_3.src= "https://i.ytimg.com/vi/NJ9gLDD7G6E/maxresdefault.jpg";
+                    src2_3.appendChild(imagen2_3);
+
+                }
+                if(count=="4"){
+                    document.getElementById("1").style.display = "none";
+                    document.getElementById("2").style.display = "none";
+                    document.getElementById("3").style.display = "none";
+                    document.getElementById("4").style.display = "none";
+                    document.getElementById("5").style.display = "none";
+                    document.getElementById("6").style.display = "none";
+                    
+                    var src = document.getElementById("7");
+                    var img = document.createElement("img");
+                    img.style="width: 100%;height: 100%;"
+                    img.src = "https://i.ytimg.com/vi/NJ9gLDD7G6E/maxresdefault.jpg";
+                    src.appendChild(img);
+
+                    var src2_2 = document.getElementById("8");
+                    var imagen2_2 = document.createElement("img");
+                    imagen2_2.style="width: 100%;height: 100%;"
+                    imagen2_2.src= "https://i.ytimg.com/vi/NJ9gLDD7G6E/maxresdefault.jpg";
+                    src2_2.appendChild(imagen2_2);
+
+                    var src2_3 = document.getElementById("9");
+                    var imagen2_3 = document.createElement("img");
+                    imagen2_3.style="width: 100%;height: 100%;"
+                    imagen2_3.src= "https://i.ytimg.com/vi/oIM9gFlOx-k/maxresdefault.jpg";
+                    src2_3.appendChild(imagen2_3);
+                    
+                    var src2_4 = document.getElementById("10");
+                    var imagen2_4 = document.createElement("img");
+                    imagen2_4.style="width: 100%;height: 100%;"
+                    imagen2_4.src= "https://i.ytimg.com/vi/oIM9gFlOx-k/maxresdefault.jpg";
+                    src2_4.appendChild(imagen2_4);
+                }
+            }
+
+            insertart("4");
+        });
+    </script>
+</head>
+<body>
+    <div class="main-wrapped">
+        <div id="1" class="imagen1">
+        </div>
+
+        <div id="2" class="imagen1"> 
+        </div>
+        <div id="3" class="imagen1">
+        </div>
+
+        <div id="4" class="imagen3">
+            <div id="5" class="imagen3_2">
+            </div>
+        </div>
+        <div id="6" class="imagen3_3">
+        </div>
+
+        <div id="7" class="imagen4">
+            <div id="8" class="imagen4_2">
+            </div>
+        </div>
+        <div id="9" class="imagen4">
+            <div id="10" class="imagen4_2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
